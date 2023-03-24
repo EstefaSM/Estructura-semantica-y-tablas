@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semántica y tablas</title>
+    <style>
+        header{
+            background-color: #455927;
+            width: 1000px;
+            height: 125px;
+            padding-top: 50px;
+            border-bottom: 2px solid black;
+            color: black;
+        }
+        nav{
+            background-color: #757849;
+            width: 1000px;
+            height: 50px;
+            padding-top: 25px;
+            border-bottom: 2px solid black;
+        }
+        main{
+            background-color: #D4DBD4;
+            width: 1000px;
+            height: 650px;
+            border-bottom: 2px solid black;
+            padding-top: 40px;
+        }
+        footer{
+            background-color: #455927;
+            width: 1000px;
+            height: 50px;
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 0.5px;
+            font-size: small;   
+            border-top: 2px solid black; 
+            margin-right: 10px;     
+        }
+        h2{
+            text-align: center; 
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 10px;
+        }
+        .nav{
+            margin-right: 20px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        .uno{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        table{
+            width: 60%;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td,th,tr{
+            color: black;
+            border: 1px solid black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #uno{
+            height: 140px;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            border-bottom: 2px solid black;
+        }
+        #dos{
+            height: 140px;
+            background-color: #757849;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+            border-bottom: 2px solid black;
+        }
+        #cuatro{
+            height: 185px;
+            background-color: #757849;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border-top: 2px solid black;
+        }        
+        #hv{
+            color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 40px;
+            text-align: center;
+            padding-top: 55px;
+        }
+    </style>
+</head>
+    <header>
+        <center>
+        <a id="hv" href="inicio.html">HOJA DE VIDA</a>
+        </center>
+    </header id="arriba" >
+<body>
+    <nav>
+        <center id="cero">
+            <a class="nav" href="#">Inicio</a>
+            <a class="nav" href="#uno">Datos personales</a>
+            <a class="nav" href="#dos">Estudios</a>
+            <a class="nav" href="#tres">Referencias</a>
+        </center>
+    </nav>
+        <main>
+            <section id="uno">
+                <h2 class="titulos">Datos personales</h2>
+                <center>
+                    <table>
+                        <tr>
+                            <th>Nombres</th>
+                            <th>Apellidos</th>
+                            <th>Teléfono</th>
+                            <th>Dirección</th>
+                        </tr>
+                        <tr>
+                            <td>Estefanía</td>
+                            <td>Saldarriaga Muñoz</td>
+                            <td>3502522495</td>
+                            <td>Cra 25B N 56A 43</td>
+                        </tr>
+                    </table>
+                </center>
+                <a id="vm" href="datospersonales.html">Ver más</a>
+            </section>
+            <section id="dos">
+                <h2 class="titulos">Estudios</h2>
+                <center>
+                    <table>
+                        <tr>
+                            <th>Institución</th>
+                            <th>Título</th>
+                            <th>Año</th>
+                        </tr>
+                        <tr>
+                            <td>Institución Educativa Javiera Londoño Centro</td>
+                            <td>Bachiller Académico</td>
+                            <td>2015</td>
+                        </tr>
+                    </table>
+                </center>
+                <a id="vm" href="Experienciaacademica.html">Ver más</a>
+            </section>
+            <section id="tres">
+                <h2 class="titulos">Referencias</h2>
+                <center>
+                    <table>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Parentesco</th>
+                            <th>Teléfono</th>
+                        </tr>
+                        <tr>
+                            <td>Julián Saldarriaga</td>
+                            <td>Hermano</td>
+                            <td>3005102708</td>
+                        </tr>
+                        <tr>
+                            <td>Yanmerly Parra</td>
+                            <td>Amiga</td>
+                            <td>3173643011</td>
+                        </tr>
+                    </table>
+                </center>
+                <a class="subir" href="#arriba">Subir</a>
+            </section>
+            <section id="cuatro">
+                <h2 class="titulos">Experiencia laboral</h2>
+                <center>
+                    <table>
+                        <tr>
+                            <th>Empresa</th>
+                            <th>Cargo</th>
+                            <th>Año</th>
+                        </tr>
+                        <tr>
+                            <td>Dogger</td>
+                            <td>Encargada punto de venta</td>
+                            <td>2016 - 2017</td>
+                        </tr>
+                        <tr>
+                            <td>Flamingo</td>
+                            <td>Cajera pos</td>
+                            <td>2018</td>
+                        </tr>
+                        <tr>
+                            <td>Webhelp</td>
+                            <td>Agente de servicio al cliente</td>
+                            <td>2018 - 2023</td>
+                        </tr>
+                    </table>
+                </center>
+                <a id="vm" href="experiencialaboral.html">Ver más</a>
+            </section>
+        </main>   
+</body>
+<footer>
+<p>Hoja de vida Estefanía Saldarriaga Muñoz. Todos los derechos reservados</p>
+</footer>
+</html>
